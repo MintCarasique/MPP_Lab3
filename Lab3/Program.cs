@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using System.Threading;
 
 namespace Lab3
 {
@@ -11,14 +9,12 @@ namespace Lab3
     {
         static void Main(string[] args)
         {
-            const int AmountOfTasks = 10;
-            ManualResetEvent[] doneEvents = new ManualResetEvent[AmountOfTasks];
             Console.WriteLine("Enter source folder path:");
-            string SourcePath = Console.ReadLine();
+            string sourcePath = Console.ReadLine();
             Console.WriteLine("Enter destination folder path:");
-            string DestPath = Console.ReadLine();
-            Copier FileCopier = new Copier();
-            
+            string destPath = Console.ReadLine();
+            Copier fileCopier = new Copier(sourcePath, destPath);
+            fileCopier.StartCopying();
         }
     }
 }
