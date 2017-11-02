@@ -15,6 +15,7 @@ namespace Lab3
             string destPath = Console.ReadLine();
             Copier fileCopier = new Copier(sourcePath, destPath);
             fileCopier.StartCopying();
+            Console.ReadKey();
         }
     }
 }

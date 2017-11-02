@@ -1,1 +1,7 @@
 D:\Documents\5_Semester\СПП\Lab3\Lab3\bin\Debug\Lab3.exe.config
+D:\Documents\5_Semester\СПП\Lab3\Lab3\bin\Debug\Lab3.exe
+D:\Documents\5_Semester\СПП\Lab3\Lab3\bin\Debug\Lab3.pdb
+D:\Documents\5_Semester\СПП\Lab3\Lab3\obj\Debug\Lab3.csprojResolveAssemblyReference.cache
+D:\Documents\5_Semester\СПП\Lab3\Lab3\obj\Debug\Lab3.csproj.CoreCompileInputs.cache
+D:\Documents\5_Semester\СПП\Lab3\Lab3\obj\Debug\Lab3.exe
+D:\Documents\5_Semester\СПП\Lab3\Lab3\obj\Debug\Lab3.pdb
